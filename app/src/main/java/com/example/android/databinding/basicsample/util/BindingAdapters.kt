@@ -86,7 +86,6 @@ private fun getAssociatedColor(popularity: Popularity, context: Context): Int {
         Popularity.STAR -> ContextCompat.getColor(context, R.color.star)
     }
 }
-
 private fun getDrawablePopularity(popularity: Popularity, context: Context): Drawable? {
     return when (popularity) {
         Popularity.NORMAL -> {
